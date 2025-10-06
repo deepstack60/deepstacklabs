@@ -5,5 +5,4 @@ fn takes_ownership(x: String) {
 fn main() {
     let s = String::from("Solana");
     takes_ownership(s);
-    // println!("{}", s); // won't compile — ownership moved
 }
