@@ -9,4 +9,3 @@
   - Readonly accounts == `&`
 - Dropping accounts = end-of-scope cleanup, like Rust's `Drop`.
 
-Takeaway: Rust’s borrow checker enforces invariants that Solana developers must mimic when handling account mutability.
